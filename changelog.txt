@@ -1,0 +1,4 @@
+- Vibrator shouldn't skip some effects anymore (e.g: keyboard presses)
+- Slightly raise strength for "light" haptic effects
+- Import icon for glyph torch QS tile
+- Fix glyph battery saver toggle being checked by default

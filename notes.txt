@@ -1,0 +1,4 @@
+- Initial Build
+- Gapps is included, do not flash any
+- Glyph Interface support included (+ Third party app support)
+- Uses Asteroids-B4.0-251229-2335 firmware (already included)
