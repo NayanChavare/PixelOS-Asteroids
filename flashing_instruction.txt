@@ -1,0 +1,43 @@
+Install Instructions
+
+This assumes you've unlocked your bootloader already... 
+
+If you are upgrading from a previous build or coming from another custom ROM, simply skip to step 7!
+
+1. Install Android SDK Platform tools if you have not installed them already.
+⚠️ Do NOT use Minimal ADB and Fastboot or other outdated installers.
+
+If you're on Windows 11 or latest version of Windows 10, winget install Google.PlatformTools is the fastest and a better way to get adb/fastboot that will work globally! 
+(winget is preinstalled on these versions)
+
+2. Enable developer options and USB debugging
+3. Reboot your device to fastboot mode (NOT bootloader) using adb reboot fastboot
+
+if your device is NOT detected by fastboot on windows, please install the correct drivers for Android Bootloader Interface!
+
+
+3. Flash the recovery image (Use the 6.1 recovery (Evolution X) if coming from stock!)
+fastboot flash recovery recovery.img
+
+4. Reboot your device to bootloader mode
+fastboot reboot bootloader
+
+5. Reboot to the new recovery (in fastbootd mode)
+fastboot reboot fastboot
+
+6. Wipe super: (skip this if you were on a custom rom beforehand!)
+fastboot wipe-super super_empty.img
+You can find super_empty in notes here!
+
+If you have an OTA zip:
+7. Enter recovery
+8. Choose Apply Update -> Apply from ADB
+9. adb sideload /path/to/ota.zip
+10. Once complete, you will be asked if you have any additional files to install. if you do not, choose no.
+11. Factory reset from the main menu (if you are updating from another version, don't wipe, unless otherwise specified)
+
+Note: Always refer to the phone screen for completion (exit status 0) or errors. Reaching only 47% on sideload and /metadata/ota printing an error after formatting are normal!
+
+Reboot to system from the main menu
+
+if you are updating from an older version and want to root your device, let the device boot unrooted at least once before flashing any patched images!
