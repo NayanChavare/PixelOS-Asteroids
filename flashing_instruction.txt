@@ -25,16 +25,16 @@ fastboot reboot bootloader
 5. Reboot to the new recovery (in fastbootd mode)
 fastboot reboot fastboot
 
-6. Wipe super: (skip this if you were on a custom rom beforehand!)
+6. Wipe super:
 fastboot wipe-super super_empty.img
 You can find super_empty in notes here!
-
+7. Reboot to bootloader once.
 If you have an OTA zip:
-7. Enter recovery
-8. Choose Apply Update -> Apply from ADB
-9. adb sideload /path/to/ota.zip
-10. Once complete, you will be asked if you have any additional files to install. if you do not, choose no.
-11. Factory reset from the main menu (if you are updating from another version, don't wipe, unless otherwise specified)
+8. Enter recovery
+9. Choose Apply Update -> Apply from ADB
+10. adb sideload /path/to/ota.zip
+11. Once complete, you will be asked if you have any additional files to install. if you do not, choose no.
+12. Factory reset from the main menu (if you are updating from another version, don't wipe, unless otherwise specified)
 
 Note: Always refer to the phone screen for completion (exit status 0) or errors. Reaching only 47% on sideload and /metadata/ota printing an error after formatting are normal!
 
