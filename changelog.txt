@@ -11,3 +11,8 @@
 - Fix UDFPS animation vertical offset
 - Glyph: Fix torch turning off when device goes to sleep
 - Glyph: Fix torch tile sometimes reporting being enabled when it isn't
+
+21/02/26
+- Hotfix update (Final Build)
+- Switch to PixelOS Dolby
+- Fixed Green tint @60Hz
