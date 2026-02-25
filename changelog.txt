@@ -16,3 +16,7 @@
 - Hotfix update (Final Build)
 - Switch to PixelOS Dolby
 - Fixed Green tint @60Hz
+
+24/02/26
+- Initial QPR2 Update
+- 
