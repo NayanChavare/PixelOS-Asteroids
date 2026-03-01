@@ -20,3 +20,7 @@
 24/02/26
 - Initial QPR2 Update
 - Fix a potential race with refresh rate and LHBM
+
+01/03/26
+- Signed Build
+- Fixed lags in Launcher possibly on other apps as well
