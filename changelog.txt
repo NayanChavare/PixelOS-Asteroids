@@ -24,3 +24,10 @@
 01/03/26
 - Signed Build
 - Fixed lags in Launcher possibly on other apps as well
+
+13/03/26
+- Fix SF dropping to 90hz on transitions
+- Potentially fix bluetooth call audio issue
+- Update firmware/vendor from NOS B4.0-260225-1824
+- Enable haptic effect when moving text selection handle
+- Switch to slider preference for glyph brightness
