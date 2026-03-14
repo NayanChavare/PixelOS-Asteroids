@@ -31,3 +31,7 @@
 - Update firmware/vendor from NOS B4.0-260225-1824
 - Enable haptic effect when moving text selection handle
 - Switch to slider preference for glyph brightness
+
+14/03/26
+- Hotfix Update
+- Fixed occasional lags
