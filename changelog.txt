@@ -39,6 +39,6 @@ Note :
 - Fixed occasional lags
 
 18/03/26
-- Fixed Screen crashing or going black in direct sunlight (added proper thermal dimming)
+- Fixed Screen crashing or going black in direct sunlight or if the device gets warm (added proper thermal dimming)
 - Improved HBM for better outdoor visibility
 - Improved HDR brightness 
