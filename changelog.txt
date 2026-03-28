@@ -42,3 +42,6 @@ Note :
 - Fixed Screen crashing or going black in direct sunlight or if the device gets warm (added proper thermal dimming)
 - Improved HBM for better outdoor visibility
 - Improved HDR brightness 
+
+27/03/26
+- Possibly fixing the Ghost Charging Bug (Charging Visual Bug)
