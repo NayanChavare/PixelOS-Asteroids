@@ -45,3 +45,8 @@ Note :
 
 27/03/26
 - Possibly fixing the Ghost Charging Bug (Charging Visual Bug)
+
+03/04/26
+- Fixed a bug where the screen would sometimes unexpectedly go black when stepping into direct sunlight.
+- Smoothed out brightness transitions. The screen will now adapt much more naturally to sudden lighting changes without any harsh, sudden jumps in brightness.
+- Building on the thermal profiles added in the last update, the display now features smarter heat management. If the phone gets a bit too warm outdoors, it will safely step down the peak brightness instead of crashing the panel.
