@@ -55,3 +55,13 @@ Note :
 - April Security Patch
 - Fixed ghost charging bug (Again, if still face it please provide logs)
 - Improved overall stability
+- Glyph: Read animations from /sdcard (directories created on launch)
+- Glyph: Notify about conflicts with pulse visualizer + disable glyph visualizer when pulse is enabled
+- Glyph: Give flip to glyph its own section and preview, allow using any notification animation
+- Glyph: Cancel pending notification animations when notification is dismissed
+- Glyph: Add extra visualizer modes, tweak band trigger mode (default) slightly
+- Glyph: Import icons for most top-level prefs
+- Glyph: Add tile for flip to glyph
+- Glyph: Allow customizing allowed apps for media progress
+- Glyph: only play flip animation when idle
+- Glyph: consider progress for idle status
