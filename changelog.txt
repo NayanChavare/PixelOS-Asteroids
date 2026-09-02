@@ -1,55 +1,10 @@
 Note : 
 *** Due to the limitation of storage on my drive I will only be keeping 5 latest build. ***
-12/02/26
-- Vibrator shouldn't skip some effects anymore (e.g: keyboard presses)
-- Slightly raise strength for "light" haptic effects
-- Import icon for glyph torch QS tile
-- Fix glyph battery saver toggle being checked by default
 
-17/02/26
-- Final QPR1 release
-- Dolby included
-- Fix bootloop issues
-- Fix UDFPS animation vertical offset
-- Glyph: Fix torch turning off when device goes to sleep
-- Glyph: Fix torch tile sometimes reporting being enabled when it isn't
-
-21/02/26
-- Hotfix update (Final Build)
-- Switch to PixelOS Dolby
-- Fixed Green tint @60Hz
-
-24/02/26
-- Initial QPR2 Update
-- Fix a potential race with refresh rate and LHBM
-
-01/03/26
-- Signed Build
-- Fixed lags in Launcher possibly on other apps as well
-
-13/03/26
-- Fix SF dropping to 90hz on transitions
-- Potentially fix bluetooth call audio issue
-- Update firmware/vendor from NOS B4.0-260225-1824
-- Enable haptic effect when moving text selection handle
-- Switch to slider preference for glyph brightness
-
-14/03/26
-- Hotfix Update
-- Fixed occasional lags
-
-18/03/26
-- Fixed Screen crashing or going black in direct sunlight or if the device gets warm (added proper thermal dimming)
-- Improved HBM for better outdoor visibility
-- Improved HDR brightness 
-
-27/03/26
-- Possibly fixing the Ghost Charging Bug (Charging Visual Bug)
-
-03/04/26
-- Fixed a bug where the screen would sometimes unexpectedly go black when stepping into direct sunlight.
-- Smoothed out brightness transitions. The screen will now adapt much more naturally to sudden lighting changes without any harsh, sudden jumps in brightness.
-- Building on the thermal profiles added in the last update, the display now features smarter heat management. If the phone gets a bit too warm outdoors, it will safely step down the peak brightness instead of crashing the panel.
+22/08/26
+- August Security Patch
+- Initial A17 release
+- Updated firmware to Asteroids_B4.1-260810-1153
 
 08/04/26
 - April Security Patch
@@ -66,7 +21,53 @@ Note :
 - Glyph: only play flip animation when idle
 - Glyph: consider progress for idle status
 
-22/08/26
-- August Security Patch
-- Initial A17 release
-- Updated firmware to Asteroids_B4.1-260810-1153
+03/04/26
+- Fixed a bug where the screen would sometimes unexpectedly go black when stepping into direct sunlight.
+- Smoothed out brightness transitions. The screen will now adapt much more naturally to sudden lighting changes without any harsh, sudden jumps in brightness.
+- Building on the thermal profiles added in the last update, the display now features smarter heat management. If the phone gets a bit too warm outdoors, it will safely step down the peak brightness instead of crashing the panel.
+
+27/03/26
+- Possibly fixing the Ghost Charging Bug (Charging Visual Bug)
+
+18/03/26
+- Fixed Screen crashing or going black in direct sunlight or if the device gets warm (added proper thermal dimming)
+- Improved HBM for better outdoor visibility
+- Improved HDR brightness 
+
+14/03/26
+- Hotfix Update
+- Fixed occasional lags
+
+13/03/26
+- Fix SF dropping to 90hz on transitions
+- Potentially fix bluetooth call audio issue
+- Update firmware/vendor from NOS B4.0-260225-1824
+- Enable haptic effect when moving text selection handle
+- Switch to slider preference for glyph brightness
+
+01/03/26
+- Signed Build
+- Fixed lags in Launcher possibly on other apps as well
+
+24/02/26
+- Initial QPR2 Update
+- Fix a potential race with refresh rate and LHBM
+
+21/02/26
+- Hotfix update (Final Build)
+- Switch to PixelOS Dolby
+- Fixed Green tint @60Hz
+
+17/02/26
+- Final QPR1 release
+- Dolby included
+- Fix bootloop issues
+- Fix UDFPS animation vertical offset
+- Glyph: Fix torch turning off when device goes to sleep
+- Glyph: Fix torch tile sometimes reporting being enabled when it isn't
+
+12/02/26
+- Vibrator shouldn't skip some effects anymore (e.g: keyboard presses)
+- Slightly raise strength for "light" haptic effects
+- Import icon for glyph torch QS tile
+- Fix glyph battery saver toggle being checked by default
