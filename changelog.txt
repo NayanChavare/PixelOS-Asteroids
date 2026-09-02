@@ -1,6 +1,10 @@
 Note : 
 *** Due to the limitation of storage on my drive I will only be keeping 5 latest build. ***
 
+02/09/26
+- Improved overall smoothness
+- Fixed Dolby crashes
+
 22/08/26
 - August Security Patch
 - Initial A17 release
