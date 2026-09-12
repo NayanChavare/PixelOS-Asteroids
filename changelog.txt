@@ -1,6 +1,11 @@
 Note : 
 *** Due to the limitation of storage on my drive I will only be keeping 5 latest build. ***
 
+12/09/26
+- September Security Patch
+- Switch to QTI powerhals
+- Opt for left volume panel
+
 02/09/26
 - Improved overall smoothness
 - Fixed Dolby crashes
