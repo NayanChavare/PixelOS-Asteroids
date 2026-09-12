@@ -3,7 +3,9 @@ Note :
 
 12/09/26
 - September Security Patch
-- Switch to QTI powerhals
+- Switch to Qualcomm Perf2 PowerHALs
+- Disabled CLO specific features not applicable to PixelOS
+- Allowed SurfaceFlinger to use the big cluster
 - Opt for left volume panel
 
 02/09/26
