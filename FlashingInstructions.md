@@ -2,7 +2,7 @@
 
 This guide assumes your phone's **bootloader is already unlocked**. If it's not, you'll need to do that first (it's a separate process, different for every phone).
 
-> **Already running a previous build of this ROM, or coming from another custom ROM?**
+> **Already running a previous build of this ROM?**
 > You don't need to do the early steps below — just jump straight to **[Step 8: Enter Recovery](#8-enter-recovery)**.
 
 ---
