@@ -1,6 +1,18 @@
 Note : 
 *** Due to the limitation of storage on my drive I will only be keeping 5 latest build. ***
 
+10/11/26
+- Switched to 6.1 kernel
+- November Security Patch
+- Shipped with NT cam and Assist Key
+- Improved fingerprint sensor responsiveness and wake-up
+- Removed double tap to wake in favor of native single tap to wake
+- General kernel stability and power optimizations
+- Added pocket mode
+- Added auto glyph animation generate (bngc like)
+- Improved dolby (dolby settings is strictly in settings page now no separate app icon)
+- Update firwmare/vendor to Asteroids-C5.0-261023-2146
+
 12/09/26
 - September Security Patch
 - Switch to Qualcomm Perf2 PowerHALs
