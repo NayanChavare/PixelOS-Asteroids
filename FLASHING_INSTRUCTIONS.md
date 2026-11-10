@@ -40,12 +40,17 @@ A beginner-friendly step-by-step guide to flashing this ROM.
 
 Follow these steps if you are currently running official Nothing OS.
 
-### Step 1: Reboot into Bootloader Mode
+### Step 1: Reboot into fastbootd Mode
 Connect your phone to your computer with a USB cable. Open your terminal or PowerShell and run:
 ```bash
 adb reboot bootloader
 ```
 *(Alternatively, power off the phone and hold **Volume Down + Power** until the bootloader screen appears).*
+
+Then:
+```bash
+fastboot reboot fastboot
+```
 
 ### Step 2: Flash the Recovery Image
 In the folder where your downloaded files are located, run:
@@ -53,7 +58,11 @@ In the folder where your downloaded files are located, run:
 fastboot flash recovery recovery.img
 ```
 
-### Step 3: Reboot to Fastbootd Mode
+### Step 3: Reboot to New Fastbootd Mode
+```bash
+fastboot reboot bootloader
+```
+Then:
 ```bash
 fastboot reboot fastboot
 ```
